@@ -67,7 +67,7 @@ Newline characters can be used and will be replaced properly.
    side="BOTH"
 [[dependencies.examplemod]]
    modId="architectury"
-   mandatory=true
+   mandatory=false
    versionRange="[10.0.8,)"
    ordering="AFTER"
    side="BOTH"
