@@ -30,6 +30,8 @@ dependencies {
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
 
     modImplementation("software.bernie.geckolib:geckolib-forge-${rootProject.minecraft_version}:${rootProject.geckolib_version}")
+    compileOnly("com.eliotlash.mclib:mclib:${rootProject.mclib_version}")
+    forgeRuntimeLibrary("com.eliotlash.mclib:mclib:${rootProject.mclib_version}")
 }
 
 processResources {
